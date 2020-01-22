@@ -1,0 +1,75 @@
+ideas = {
+	country = {
+		TAN_borderless_nation = {
+			allowed = {
+				tag = TAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = TAN_border
+
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = -0.1
+				conscription = -0.15
+			}
+		}
+
+		TAN_lacking_recognition = {
+			allowed = {
+				tag = TAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = HUN_treaty_of_triannon
+
+			modifier = {
+				stability_factor = -0.05
+				opinion_gain_monthly_factor = -0.05
+				political_power_factor = -0.05
+			}
+		}
+
+		TAN_soviet_training = {
+			allowed = {
+				tag = TAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = saf_soviet_advisers
+
+			modifier = {
+				training_time_factor = -0.10
+				experience_gain_army_factor = 0.05
+				consumer_goods_factor = 0.10
+				autonomy_gain = -2
+			}
+		}
+
+		TAN_flames_of_revolution = {
+			allowed = {
+				tag = TAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = home_of_revolution
+
+			modifier = {
+				communism_drift = 0.10
+				political_power_factor = 0.03
+			}
+		}
+	}
+}
